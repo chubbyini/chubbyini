@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-label="Sojourner Builds footer colophon">
+  <style>
+    .font-mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+  <line x1="24" y1="20" x2="576" y2="20" stroke="#1A253E" stroke-width="1" />
+  <line x1="624" y1="20" x2="1176" y2="20" stroke="#1A253E" stroke-width="1" />
+  <polygon points="600,12 608,20 600,28 592,20" fill="none" stroke="#C9A227" stroke-width="1.25" />
+  <circle cx="600" cy="20" r="2" fill="#E6C766" />
+  <text x="600" y="48" text-anchor="middle" class="font-mono" font-size="12" fill="#8A8F98" opacity="0.88">Sojourner Builds  |  Inioluwa Daniel Osibajo  |  @chubbyini</text>
+</svg>
