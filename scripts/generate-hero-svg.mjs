@@ -77,8 +77,8 @@ function buildHeroSvg(mode) {
   const t = THEMES[mode];
   const ticks = buildDegreeTicks(t);
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Inioluwa Daniel Osibajo — Software Engineer at PicckR and Founder of Sojourner Builds">
-  <title>Inioluwa Daniel Osibajo — Software Engineer &amp; Founder of Sojourner Builds</title>
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Inioluwa Daniel Osibajo — Software Engineer | Sojourner Builds">
+  <title>Inioluwa Daniel Osibajo — Software Engineer | Sojourner Builds</title>
   <style>
     @keyframes sj-spin { to { transform: rotate(360deg); } }
     @keyframes sj-wp { 0%, 100% { opacity: 0.35; } 45% { opacity: 1; } }
@@ -131,14 +131,14 @@ function buildHeroSvg(mode) {
   <g>
     <circle cx="62" cy="60" r="4" fill="${t.strike}" class="sj-beacon" />
     <circle cx="62" cy="60" r="8" fill="${t.strike}" fill-opacity="0.16" />
-    <text x="78" y="64" class="font-mono" font-size="13" fill="${t.dim}">Shipping in production — Nigeria</text>
+    <text x="78" y="64" class="font-mono" font-size="13" fill="${t.dim}">Based in Nigeria</text>
 
     <text x="56" y="124" class="font-display" font-size="44" font-weight="700" letter-spacing="-0.025em" fill="${t.ink}">Inioluwa Daniel Osibajo</text>
 
-    <text x="56" y="162" class="font-sans" font-size="18.5" font-weight="600" fill="${t.gold}">Software Engineer at PicckR  |  Founder of Sojourner Builds</text>
+    <text x="56" y="162" class="font-sans" font-size="18.5" font-weight="600" fill="${t.gold}">Software Engineer  |  Sojourner Builds</text>
 
-    <text x="56" y="202" class="font-sans" font-size="15.5" fill="${t.dim}">I ship real products, architect resilient web systems,</text>
-    <text x="56" y="226" class="font-sans" font-size="15.5" fill="${t.dim}">and write about how I build them.</text>
+    <text x="56" y="202" class="font-sans" font-size="15.5" fill="${t.dim}">Building web apps, offline-first tools, and UI packages</text>
+    <text x="56" y="226" class="font-sans" font-size="15.5" fill="${t.dim}">in TypeScript, React, and Next.js.</text>
 
     <text x="56" y="276" class="font-mono" font-size="12" fill="${t.dim}" opacity="0.88">Waypoints: Lagos 6.52°N  /  Kaduna 10.51°N  /  Cross River 5.87°N</text>
   </g>

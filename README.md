@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-      <img alt="Inioluwa Daniel Osibajo — Software Engineer at PicckR and Founder of Sojourner Builds" src="./assets/hero-dark.svg" width="100%" />
+      <img alt="Inioluwa Daniel Osibajo — Software Engineer | Sojourner Builds" src="./assets/hero-dark.svg" width="100%" />
     </picture>
   </a>
 </p>
@@ -21,9 +21,9 @@
 
 ## Overview
 
-I am a software engineer and web developer at **[PicckR](https://picckr.com/)** (a subsidiary of Vissionnaire Tech Solution Ltd), building responsive merchant portals, real-time rider dispatch workspaces, and logistics web platforms serving 16+ cities across Nigeria.
+I'm a software engineer working on B2B web apps, logistics dispatch tools, and offline-first retail software—mostly with TypeScript, React, and Next.js.
 
-Under **[Sojourner Builds](https://www.npmjs.com/package/@sojournerbuilds/mark)**, my independent studio and open-source lab, I author developer UI tokens, offline-first retail applications, and AI-assisted publishing pipelines. I also conduct applied NLP research, with a peer-reviewed paper in *IJRIAS* on zero-shot summarization and question generation.
+Through **[Sojourner Builds](https://www.npmjs.com/package/@sojournerbuilds/mark)**, I publish small open-source packages and side projects. I also write technical notes on web architecture and co-authored a peer-reviewed paper in *IJRIAS* on zero-shot NLP.
 
 ---
 
@@ -32,37 +32,37 @@ Under **[Sojourner Builds](https://www.npmjs.com/package/@sojournerbuilds/mark)*
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong><a href="https://picckr.com/">PicckR Platform Suite</a></strong><br />
-      Flagship logistics web ecosystem spanning the <a href="https://picckr.com/">consumer platform</a>, <a href="https://business.picckr.com/">B2B merchant portal</a> (bulk CSV order creation, Zod validation, real-time WebSocket dispatch, +45% faster dispatch), and <a href="https://partners.picckr.com/">fleet partner workspace</a>.<br /><br />
+      <strong>B2B Logistics &amp; Dispatch Platforms</strong><br />
+      Web apps built for nationwide delivery operations across 16+ cities in Nigeria: a <a href="https://picckr.com/">public tracking site</a>, a <a href="https://business.picckr.com/">B2B merchant portal</a> with bulk CSV ordering and WebSocket dispatch, and a <a href="https://partners.picckr.com/">fleet operations workspace</a>.<br /><br />
       <code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>WebSockets</code> <code>Tailwind CSS</code>
     </td>
     <td width="50%" valign="top">
       <strong><a href="https://www.npmjs.com/package/@sojournerbuilds/mark">@sojournerbuilds/mark</a></strong><br />
-      Zero-dependency React and Next.js SVG nautical waymark token with a data-aware App Router route transition veil (<code>&lt; 4kB</code> CSS overhead and native <code>prefers-reduced-motion</code> support).<br /><br />
+      Zero-dependency SVG waymark component and Next.js App Router loading veil (<code>&lt; 4kB</code> CSS, respects <code>prefers-reduced-motion</code>).<br /><br />
       <code>TypeScript</code> <code>React</code> <code>SVG</code> <code>npm</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <strong><a href="https://github.com/chubbyini/stockfindr">Stockfindr</a></strong><br />
-      Offline-first Next.js PWA for small retail shops: continuous ZXing barcode POS, Dexie IndexedDB held-outbox with 10-second undo, Firestore ledger sync, and nightly Trigger.dev Telegram summaries.<br /><br />
+      Offline-first Next.js PWA for retail shops with ZXing barcode scanning, an IndexedDB outbox (10s undo), Firestore sync, and nightly Telegram summaries via Trigger.dev.<br /><br />
       <code>Next.js</code> <code>Firebase</code> <code>Dexie</code> <code>Zustand</code> <code>Trigger.dev</code>
     </td>
     <td width="50%" valign="top">
       <strong><a href="https://github.com/chubbyini/crimson-uplink">Crimson Uplink</a></strong> (<a href="https://crimsonuplink.vercel.app/">Live</a>)<br />
-      Multi-user BYOK developer content engine: ingests HN, RSS, GitHub, and Dev.to trends, scores angles with Gemini Flash, drafts articles via Groq, and sends Telegram approval digests for one-tap publishing.<br /><br />
+      BYOK developer writing tool that pulls daily trends from HN, RSS, GitHub, and Dev.to, ranks angles with Gemini Flash, drafts via Groq, and sends Telegram digests to approve and publish.<br /><br />
       <code>Next.js</code> <code>TypeScript</code> <code>Firestore</code> <code>Gemini</code> <code>Groq</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <strong><a href="https://github.com/chubbyini/ikomrealtimechatapps">Ikom Real-Time Chat</a></strong> (<a href="https://ikomrealtimechatapps.onrender.com/login">Live</a>)<br />
-      Full-stack bidirectional messaging application featuring live rooms, online presence indicators, persistent message logs, and automatic socket reconnection under 100ms latency.<br /><br />
+      Real-time chat app built with Socket.io, Express, and React—supports chat rooms, online presence, persistent history, and automatic reconnects.<br /><br />
       <code>Node.js</code> <code>Express</code> <code>Socket.io</code> <code>React</code>
     </td>
     <td width="50%" valign="top">
       <strong><a href="https://github.com/chubbyini/porfolioinitial">Portfolio &amp; Studio</a></strong> (<a href="https://inioluwaosibajo.vercel.app/">Live</a>)<br />
-      Personal portfolio, dynamic architecture case studies, and MDX writing studio built with strict TypeScript, Framer Motion, and Emil Kowalski tactile motion curves.<br /><br />
+      Personal site with project case studies and an MDX blog, built in Next.js 15, strict TypeScript, and Framer Motion.<br /><br />
       <code>Next.js 15</code> <code>TypeScript</code> <code>Framer Motion</code> <code>MDX</code>
     </td>
   </tr>
@@ -70,7 +70,7 @@ Under **[Sojourner Builds](https://www.npmjs.com/package/@sojournerbuilds/mark)*
 
 ---
 
-## Telemetry
+## Activity
 
 <p align="center">
   <a href="https://github.com/chubbyini">
