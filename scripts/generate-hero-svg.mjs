@@ -80,17 +80,13 @@ function buildHeroSvg(mode) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Inioluwa Daniel Osibajo — Software Engineer | Sojourner Builds">
   <title>Inioluwa Daniel Osibajo — Software Engineer | Sojourner Builds</title>
   <style>
-    @keyframes sj-spin { to { transform: rotate(360deg); } }
-    @keyframes sj-wp { 0%, 100% { opacity: 0.35; } 45% { opacity: 1; } }
-    @keyframes sj-beacon { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
-    .sj-dial { animation: sj-spin 42s linear infinite; transform-origin: 60px 60px; }
-    .sj-wp { animation: sj-wp 3.2s ease-in-out infinite; }
-    .sj-beacon { animation: sj-beacon 2.8s ease-in-out infinite; }
+    @keyframes sj-wp { 0%, 100% { opacity: 0.28; } 45% { opacity: 1; } }
+    .sj-wp { animation: sj-wp 3s ease-in-out infinite; }
     .font-display { font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .font-sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .font-mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     @media (prefers-reduced-motion: reduce) {
-      .sj-dial, .sj-wp, .sj-beacon { animation: none; }
+      .sj-wp { animation: none; }
     }
   </style>
   <defs>
@@ -115,7 +111,7 @@ function buildHeroSvg(mode) {
     <circle cx="1005" cy="160" r="190" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="3 6" />
     <circle cx="1005" cy="160" r="285" stroke-width="1" stroke-opacity="0.35" />
     <circle cx="1005" cy="160" r="390" stroke-width="1" stroke-opacity="0.22" stroke-dasharray="2 8" />
-    <line x1="56" y1="248" x2="770" y2="248" stroke-width="1" stroke-opacity="0.65" />
+    <line x1="56" y1="236" x2="770" y2="236" stroke-width="1" stroke-opacity="0.65" />
     <circle cx="1005" cy="160" r="170" fill="url(#compass-glow-${mode})" stroke="none" />
   </g>
 
@@ -129,28 +125,25 @@ function buildHeroSvg(mode) {
 
   <!-- Editorial left block (strictly within x=56..770) -->
   <g>
-    <circle cx="62" cy="60" r="4" fill="${t.strike}" class="sj-beacon" />
-    <circle cx="62" cy="60" r="8" fill="${t.strike}" fill-opacity="0.16" />
-    <text x="78" y="64" class="font-mono" font-size="13" fill="${t.dim}">Based in Nigeria</text>
+    <text x="56" y="102" class="font-display" font-size="44" font-weight="700" letter-spacing="-0.025em" fill="${t.ink}">Inioluwa Daniel Osibajo</text>
 
-    <text x="56" y="124" class="font-display" font-size="44" font-weight="700" letter-spacing="-0.025em" fill="${t.ink}">Inioluwa Daniel Osibajo</text>
+    <text x="56" y="140" class="font-sans" font-size="18.5" font-weight="600" fill="${t.gold}">Software Engineer  |  Sojourner Builds</text>
 
-    <text x="56" y="162" class="font-sans" font-size="18.5" font-weight="600" fill="${t.gold}">Software Engineer  |  Sojourner Builds</text>
+    <text x="56" y="184" class="font-sans" font-size="15.5" fill="${t.dim}">Building web apps, offline-first tools, and UI packages</text>
+    <text x="56" y="208" class="font-sans" font-size="15.5" fill="${t.dim}">in TypeScript, React, and Next.js.</text>
 
-    <text x="56" y="202" class="font-sans" font-size="15.5" fill="${t.dim}">Building web apps, offline-first tools, and UI packages</text>
-    <text x="56" y="226" class="font-sans" font-size="15.5" fill="${t.dim}">in TypeScript, React, and Next.js.</text>
-
-    <text x="56" y="276" class="font-mono" font-size="12" fill="${t.dim}" opacity="0.88">Waypoints: Lagos 6.52°N  /  Kaduna 10.51°N  /  Cross River 5.87°N</text>
+    <text x="56" y="264" class="font-mono" font-size="12" fill="${t.dim}" opacity="0.88">Waypoints: Lagos 6.52°N  /  Kaduna 10.51°N  /  Cross River 5.87°N</text>
   </g>
 
   <!-- Authentic @sojournerbuilds/mark nautical waymark centerpiece -->
-  <g transform="translate(1005, 160) scale(2.05) translate(-60, -60)">
+  <svg x="882" y="37" width="246" height="246" viewBox="0 0 120 120" overflow="visible">
     <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="14s" repeatCount="indefinite" />
       <circle cx="60" cy="60" r="52" fill="none" stroke="${t.dim}" stroke-width="1.4" stroke-opacity="0.85" />
       <circle cx="60" cy="60" r="38" fill="none" stroke="${t.faint}" stroke-width="0.75" stroke-opacity="0.65" />
 
-      <!-- Rotating degree ticks -->
-      <g class="sj-dial">
+      <!-- Degree ticks -->
+      <g>
 ${ticks}
       </g>
 
@@ -188,6 +181,7 @@ ${ticks}
 
     <!-- Sailing vessel & wake trail -->
     <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="-360 60 60" dur="14s" repeatCount="indefinite" />
       <path d="M60 8 A52 52 0 0 1 111.2 51" fill="none" stroke="${t.wake}" stroke-width="2" stroke-linecap="round" stroke-opacity="0.9" />
       <g transform="translate(60 8)">
         <line x1="-10" y1="0" x2="-15" y2="-4" stroke="${t.ship}" stroke-width="1" stroke-linecap="round" />
@@ -206,7 +200,7 @@ ${ticks}
         <circle cx="4" cy="3" r="0.8" fill="${t.deep}" />
       </g>
     </g>
-  </g>
+  </svg>
 </svg>
 `;
 }
