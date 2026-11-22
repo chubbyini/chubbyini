@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="GitHub telemetry and language breakdown for chubbyini">
+  <title>GitHub Telemetry — chubbyini</title>
+  <style>
+    .font-display { font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .font-sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+  <defs>
+    <linearGradient id="stats-bg-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#FAF7EE" />
+    </linearGradient>
+    <clipPath id="bar-clip-light">
+      <rect x="640" y="74" width="516" height="12" rx="6" />
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1199" height="199" rx="14" fill="url(#stats-bg-light)" stroke="#CBD5E1" stroke-width="1" />
+
+  <!-- Left half: 2x2 Telemetry Readout -->
+  <g>
+    <text x="44" y="46" class="font-mono" font-size="12" fill="#475569">Contributions (12m)</text>
+    <text x="44" y="82" class="font-display" font-size="32" font-weight="700" fill="#17202E">895</text>
+
+    <text x="336" y="46" class="font-mono" font-size="12" fill="#475569">Original Public Repos</text>
+    <text x="336" y="82" class="font-display" font-size="32" font-weight="700" fill="#17202E">19</text>
+
+    <line x1="44" y1="104" x2="556" y2="104" stroke="#E2E8F0" stroke-width="1" />
+
+    <text x="44" y="132" class="font-mono" font-size="12" fill="#475569">Open-Source Package</text>
+    <text x="44" y="160" class="font-mono" font-size="17" font-weight="600" fill="#9A7414">@sojournerbuilds/mark</text>
+
+    <text x="336" y="132" class="font-mono" font-size="12" fill="#475569">Published Research</text>
+    <text x="336" y="160" class="font-mono" font-size="17" font-weight="600" fill="#17202E">IJRIAS Vol. 10(7)</text>
+  </g>
+
+  <!-- Vertical divider -->
+  <line x1="600" y1="26" x2="600" y2="174" stroke="#E2E8F0" stroke-width="1" />
+
+  <!-- Right half: Language Composition -->
+  <g>
+    <text x="640" y="48" class="font-sans" font-size="14" font-weight="600" fill="#17202E">Language composition</text>
+    <text x="1156" y="48" text-anchor="end" class="font-mono" font-size="11.5" fill="#475569" opacity="0.88">Updated 2026-11-22</text>
+
+    <rect x="640" y="74" width="516" height="12" rx="6" fill="#E2E8F0" />
+    <g clip-path="url(#bar-clip-light)">
+      <rect x="640" y="74" width="383" height="12" fill="#3178c6" />
+      <rect x="1023" y="74" width="114" height="12" fill="#f1e05a" />
+      <rect x="1137" y="74" width="11" height="12" fill="#663399" />
+      <rect x="1148" y="74" width="4" height="12" fill="#e34c26" />
+      <rect x="1152" y="74" width="4" height="12" fill="#fcb32c" />
+    </g>
+
+    <g>
+      <circle cx="645" cy="110" r="4.5" fill="#3178c6" />
+      <text x="658" y="114" class="font-sans" font-size="13" font-weight="500" fill="#17202E">TypeScript</text>
+      <text x="878" y="114" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">74.2%</text>
+    </g>
+    <g>
+      <circle cx="913" cy="110" r="4.5" fill="#f1e05a" />
+      <text x="926" y="114" class="font-sans" font-size="13" font-weight="500" fill="#17202E">JavaScript</text>
+      <text x="1156" y="114" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">22.2%</text>
+    </g>
+    <g>
+      <circle cx="645" cy="138" r="4.5" fill="#663399" />
+      <text x="658" y="142" class="font-sans" font-size="13" font-weight="500" fill="#17202E">CSS</text>
+      <text x="878" y="142" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">2.2%</text>
+    </g>
+    <g>
+      <circle cx="913" cy="138" r="4.5" fill="#e34c26" />
+      <text x="926" y="142" class="font-sans" font-size="13" font-weight="500" fill="#17202E">HTML</text>
+      <text x="1156" y="142" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">0.8%</text>
+    </g>
+    <g>
+      <circle cx="645" cy="166" r="4.5" fill="#fcb32c" />
+      <text x="658" y="170" class="font-sans" font-size="13" font-weight="500" fill="#17202E">MDX</text>
+      <text x="878" y="170" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">0.6%</text>
+    </g>
+  </g>
+</svg>
