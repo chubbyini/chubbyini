@@ -20,7 +20,7 @@
   <!-- Left half: 2x2 Telemetry Readout -->
   <g>
     <text x="44" y="46" class="font-mono" font-size="12" fill="#475569">Contributions (12m)</text>
-    <text x="44" y="82" class="font-display" font-size="32" font-weight="700" fill="#17202E">895</text>
+    <text x="44" y="82" class="font-display" font-size="32" font-weight="700" fill="#17202E">919</text>
 
     <text x="336" y="46" class="font-mono" font-size="12" fill="#475569">Original Public Repos</text>
     <text x="336" y="82" class="font-display" font-size="32" font-weight="700" fill="#17202E">19</text>
@@ -40,31 +40,31 @@
   <!-- Right half: Language Composition -->
   <g>
     <text x="640" y="48" class="font-sans" font-size="14" font-weight="600" fill="#17202E">Language composition</text>
-    <text x="1156" y="48" text-anchor="end" class="font-mono" font-size="11.5" fill="#475569" opacity="0.88">Updated 2026-11-22</text>
+    <text x="1156" y="48" text-anchor="end" class="font-mono" font-size="11.5" fill="#475569" opacity="0.88">Updated 2026-11-23</text>
 
     <rect x="640" y="74" width="516" height="12" rx="6" fill="#E2E8F0" />
     <g clip-path="url(#bar-clip-light)">
-      <rect x="640" y="74" width="383" height="12" fill="#3178c6" />
-      <rect x="1023" y="74" width="114" height="12" fill="#f1e05a" />
-      <rect x="1137" y="74" width="11" height="12" fill="#663399" />
-      <rect x="1148" y="74" width="4" height="12" fill="#e34c26" />
-      <rect x="1152" y="74" width="4" height="12" fill="#fcb32c" />
+      <rect x="640" y="74" width="378" height="12" fill="#3178c6" />
+      <rect x="1018" y="74" width="120" height="12" fill="#f1e05a" />
+      <rect x="1138" y="74" width="11" height="12" fill="#663399" />
+      <rect x="1149" y="74" width="4" height="12" fill="#e34c26" />
+      <rect x="1153" y="74" width="3" height="12" fill="#fcb32c" />
     </g>
 
     <g>
       <circle cx="645" cy="110" r="4.5" fill="#3178c6" />
       <text x="658" y="114" class="font-sans" font-size="13" font-weight="500" fill="#17202E">TypeScript</text>
-      <text x="878" y="114" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">74.2%</text>
+      <text x="878" y="114" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">73.2%</text>
     </g>
     <g>
       <circle cx="913" cy="110" r="4.5" fill="#f1e05a" />
       <text x="926" y="114" class="font-sans" font-size="13" font-weight="500" fill="#17202E">JavaScript</text>
-      <text x="1156" y="114" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">22.2%</text>
+      <text x="1156" y="114" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">23.3%</text>
     </g>
     <g>
       <circle cx="645" cy="138" r="4.5" fill="#663399" />
       <text x="658" y="142" class="font-sans" font-size="13" font-weight="500" fill="#17202E">CSS</text>
-      <text x="878" y="142" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">2.2%</text>
+      <text x="878" y="142" text-anchor="end" class="font-mono" font-size="12.5" fill="#475569">2.1%</text>
     </g>
     <g>
       <circle cx="913" cy="138" r="4.5" fill="#e34c26" />
